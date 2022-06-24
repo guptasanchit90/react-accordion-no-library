@@ -32,35 +32,81 @@ Nostrud ex duis tempor voluptate nostrud ut adipisicing nisi mollit amet. Velit 
             },
             {
               id: 2,
-              summary:
-                "In officia et reprehenderit exercitation id nisi ex reprehenderit.",
-              details: `Laboris sint consequat nisi in sint elit nulla cillum enim laboris adipisicing veniam. Tempor sunt consequat deserunt aute dolore dolore laborum sint. Pariatur ut veniam ipsum enim proident dolore labore culpa officia qui ipsum consequat. In ullamco voluptate culpa excepteur velit voluptate ad non pariatur. Ipsum sunt ad tempor irure sunt enim ea dolore. Ut exercitation cillum labore aliqua quis enim reprehenderit irure nisi labore occaecat ullamco.
-
-Adipisicing aute non voluptate anim ipsum culpa ullamco adipisicing laborum exercitation adipisicing ut. Esse consectetur ad aliquip voluptate mollit labore cillum ullamco esse incididunt adipisicing non voluptate. Magna est aliquip consectetur sunt incididunt commodo veniam eiusmod laboris esse eiusmod voluptate eu. Eu fugiat duis amet pariatur reprehenderit. Adipisicing sint magna proident amet minim aliquip. Voluptate non laborum adipisicing id nulla ullamco aliquip dolor consectetur aliqua.
-
-Reprehenderit incididunt cupidatat proident in sit incididunt veniam aute. Tempor reprehenderit laborum ipsum est aliqua enim mollit mollit do. Non excepteur sint commodo tempor magna ullamco ex cillum. Amet aliqua eiusmod aute quis minim in id aute elit deserunt sunt.`,
+              summary: "Esse dolore minim id esse proident proident.",
+              details: (
+                <>
+                  <img
+                    style={{ height: "200px" }}
+                    src={
+                      "https://cdn.pixabay.com/photo/2019/11/25/12/31/french-bulldog-4651905_1280.png"
+                    }
+                  />
+                </>
+              ),
             },
             {
               id: 3,
               summary:
-                "Id elit ut aliquip dolor non commodo ex est elit amet ad pariatur amet.",
-              details: `Adipisicing do sit ea cupidatat exercitation laborum. Reprehenderit ad exercitation ullamco consectetur cupidatat. Cupidatat magna ipsum commodo ea quis consequat laborum duis sint est cupidatat quis. Tempor occaecat amet velit esse sint ad voluptate tempor pariatur magna sit.
-
-Labore voluptate officia occaecat et ullamco nostrud consectetur voluptate non ea laboris aliquip do in. Cillum non dolor dolor proident non labore voluptate aliquip labore ullamco nulla incididunt. Tempor Lorem adipisicing cupidatat deserunt consequat incididunt magna non laboris do est. Et do tempor amet ut aute consequat veniam nisi dolore esse commodo reprehenderit consequat. Voluptate culpa ipsum nisi magna tempor Lorem eiusmod deserunt.`,
+                "Ut ullamco do fugiat Lorem quis labore reprehenderit deserunt ex veniam irure dolore.",
+              details: (
+                <>
+                  <iframe
+                    src="https://giphy.com/embed/gishiA5celsz6ASgOO"
+                    width="480"
+                    height="270"
+                    frameBorder="0"
+                    class="giphy-embed"
+                    allowFullScreen
+                  ></iframe>
+                  <p>
+                    <a href="https://giphy.com/gifs/PeninsulaHumaneSocietySPCA-working-hard-hardly-phsspca-gishiA5celsz6ASgOO">
+                      via GIPHY
+                    </a>
+                  </p>
+                </>
+              ),
             },
             {
               id: 4,
-              summary:
-                "Esse dolore minim id esse proident proident.",
-              details: `Velit dolore magna ea magna. Tempor aute irure ex laboris elit do ipsum exercitation dolor ut eu et consectetur et. Aute occaecat fugiat in occaecat amet eu cupidatat et.
-
-Dolor non pariatur anim amet officia aliquip laborum aliquip dolor nulla cupidatat tempor. Velit amet ut eu fugiat ipsum est reprehenderit deserunt exercitation deserunt. Nulla nulla commodo cillum ullamco dolore qui labore et aliqua occaecat ad labore. Veniam ullamco do quis cupidatat nostrud Lorem proident cupidatat magna aute pariatur anim occaecat magna. Nisi pariatur est esse eiusmod nulla do enim incididunt labore ullamco voluptate aliqua. Id ex sint fugiat sit cillum Lorem aute aliquip esse nulla reprehenderit.
-
-Nostrud et exercitation do consectetur do ut qui enim voluptate esse consectetur non. Fugiat eu do dolor irure nisi sint incididunt eiusmod minim ea sit incididunt laborum enim. Anim et nostrud dolore qui proident. Pariatur velit anim veniam ad labore mollit exercitation dolore ullamco laborum. Eu labore mollit fugiat reprehenderit reprehenderit.
-
-Elit eiusmod dolore ex eu. Laborum tempor laboris id sint. Eu do deserunt pariatur in aliquip nostrud deserunt id eiusmod velit occaecat laboris aliquip. Deserunt consectetur aute nisi sunt adipisicing culpa duis quis pariatur dolor deserunt sunt. Ea adipisicing ex ullamco commodo cupidatat occaecat id ex voluptate duis. Veniam magna ipsum officia eiusmod elit reprehenderit nisi consectetur elit est velit exercitation deserunt. Non mollit sunt deserunt deserunt sint consectetur nulla ex.
-
-Laborum Lorem officia esse aliqua dolor officia sint non tempor nostrud. Lorem elit nostrud ex veniam mollit nisi adipisicing ex mollit voluptate labore et velit. Duis dolor qui cupidatat sit do fugiat cillum. Id amet pariatur elit culpa labore anim in non deserunt elit aliqua pariatur. Ipsum reprehenderit proident labore Lorem incididunt consequat. Magna aliquip est non minim ad ipsum cillum mollit pariatur.`,
+              summary: "Dolor labore voluptate in exercitation.",
+              details: (
+                <>
+                  <form>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" />
+                    <br />
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" />
+                    <br />
+                    <input type="submit" value="Submit" />
+                  </form>
+                </>
+              ),
+            },
+            {
+              id: 5,
+              summary: "Ea amet dolor incididunt cupidatat.",
+              details: (
+                <>
+                  <table style={{ width: "100%" }}>
+                    <tr>
+                      <th>Company</th>
+                      <th>Contact</th>
+                      <th>Country</th>
+                    </tr>
+                    <tr>
+                      <td>Alfreds Futterkiste</td>
+                      <td>Maria Anders</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Centro comercial Moctezuma</td>
+                      <td>Francisco Chang</td>
+                      <td>Mexico</td>
+                    </tr>
+                  </table>
+                </>
+              ),
             },
           ]}
         />
