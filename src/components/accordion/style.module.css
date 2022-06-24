@@ -1,22 +1,31 @@
-.accordion_item{
-    background: #fafafa;
-    margin: 2px 0;
+.accordion_item {
+  background: #fafafa;
+  margin: 2px 0;
 }
 
-.accordion_summary{
-    padding: 10px;
-    background: lightgray;
-    font-size: larger;
-    font-weight: bolder;
+.accordion_summary {
+  padding: 10px;
+  background: lightgray;
+  font-size: larger;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
 }
 
-.accordion_details{
-    margin: 18px 12px;
-    text-align: justify;
-    line-height: 1.5em;
+.accordion_details {
+  margin: 18px 12px;
+  text-align: justify;
+  line-height: 1.5em;
 }
 
-.accordion_icon{
-    margin-right: 12px;
-    float: right;
+.accordion_icon {
+  margin: auto 12px auto 24px;
+  float: right;
+  width: 18px;
+}
+
+.accordion_summary_text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
